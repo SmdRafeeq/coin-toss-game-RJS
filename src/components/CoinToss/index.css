@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  height: 100vh;
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-container {
+  background-color: #ffffff;
+  width: 40%;
+  height: 80%;
+  border-radius: 8px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 36px;
+  color: #a35200;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.heads-tails {
+  font-size: 20px;
+  font-weight: 500;
+  color: #334155;
+}
+
+.toss-img {
+  width: 200px;
+  height: 200px;
+  margin: 10px 0;
+}
+
+.toss-btn {
+  text-transform: capitalize;
+  font-size: 15px;
+  width: 100px;
+  height: 30px;
+  font-weight: 600;
+  background-color: #f9d423;
+  color: #a35200;
+  border: none;
+  border-radius: 5px;
+}
+
+.toss-result-con {
+  margin: 10px 0;
+  display: flex;
+}
+
+.result-toss {
+  font-size: 18px;
+  color: #475569;
+  font-weight: 500;
+  margin: 10px 15px;
+}
